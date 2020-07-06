@@ -2,7 +2,7 @@ from redis import StrictRedis
 class Config:
     DEBUG = None
 
-
+#测试第二次上次
 # 定义开发模式的配置
 class developmentConfig(Config):
     DEBUG = True
