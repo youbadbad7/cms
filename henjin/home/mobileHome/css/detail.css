@@ -1,0 +1,111 @@
+.bgc .detail #main .news {
+  display: none;
+}
+.bgc .detail #main > .title {
+  position: relative;
+  padding-top: 48px;
+  overflow: hidden;
+}
+.bgc .detail #main > .title .news_mb {
+  position: absolute;
+  color: #4C70AC;
+  font-weight: bold;
+  top: 97px;
+  right: 70px;
+  font-size: 16px;
+}
+.bgc .detail #main > .title .meiti {
+  font-size: 25px;
+  font-weight: bold;
+  border-top: 1px solid #1D5093;
+  border-bottom: 1px solid #1D5093;
+  line-height: 32px;
+  padding: 16px;
+}
+.bgc .detail #main .content {
+  box-sizing: border-box;
+  padding: 10px;
+  background: #F2F2F2;
+}
+.bgc .detail #main .content .head .list_item h2 {
+  font-size: 20px;
+  color: #e04920;
+}
+.bgc .detail #main .content .head .list_item .name {
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: bold;
+}
+.bgc .detail #main .content .head .list_item .shared {
+  display: flex;
+}
+.bgc .detail #main .content .head .list_item .shared .fenxiang {
+  padding-right: 20px;
+}
+.bgc .detail #main .content .head .list_item .shared a {
+  margin-right: 20px;
+}
+.bgc .detail #main .content .article img {
+  width: 100%;
+}
+.bgc .detail #main .content .article > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgc .detail #main .content .article .restart {
+  width: 20px;
+  padding: 10px;
+}
+
+.more .recommend .re_news {
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.more .recommend .re_news .list_item {
+  margin: 20px 0;
+  padding-left: 10px;
+  border-left: 1px solid #607A9E;
+}
+.more .recommend .re_news .list_item:last-child {
+  margin-bottom: 0;
+}
+.more .recommend .re_news .list_item .title {
+  display: flex;
+}
+.more .recommend .re_news .list_item .title h2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  color: #D74E2B;
+  font-size: 16px;
+  font-weight: bold;
+}
+.more .recommend .re_news .list_item .title > div {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding-left: 8px;
+  width: 64%;
+}
+.more .recommend .re_news .list_item .title > div a {
+  font-size: 16px;
+  font-weight: bold;
+}
+.more .recommend .re_news .list_item .body {
+  font-size: 12px;
+}
+.more .recommend .footer {
+  width: 100%;
+  background: #16519D;
+  text-align: center;
+}
+.more .recommend .footer .info {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 200;
+}
+
+/*# sourceMappingURL=detail.css.map */

@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #5A6872;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "PingFang SC", 微软雅黑, "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+    //-webkit-font-smoothing: antialiased;
+    //-moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #5A6872;
+}
+
+.fl_r {
+    float: right;
+}
+
+.fl_l {
+    float: left;
+}
+
+.op_none {
+    opacity: 0;
+}
+
+.op_one {
+    opacity: 1;
+}
+
+.move_box {
+    animation-duration: 1s !important;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.play {
+    font-size: 30px !important;
+}
+
+#nav {
+    height: 100vh;
+    position: fixed;
+    padding-top: 36px;
+    width: 100px;
+    z-index: 302;
+    padding-left: 70px;
+
+    .logo {
+        position: absolute;
+        top: 46px;
+
+        img {
+            width: 66px;
+            height: 70px;
+        }
+    }
+
+    .nav_main {
+        position: absolute;
+        bottom: 100px;
+
+        a {
+            font-size: 14px;
+            color: #152935;
+            font-weight: 200;
+            line-height: 30px;
+        }
+    }
+
+    a:hover {
+        font-weight: bolder;
+    }
+}
+
+.compensate-for-scrollbar {
+    margin: auto !important;
+}
+
+.bolder{
+    font-weight: bolder!important;
+}
+
+.nav-icon{
+    text-indent: -9999px;
+}

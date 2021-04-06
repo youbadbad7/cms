@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>媒体报道详情</title>
+
+    <link rel="stylesheet" href="./home/assets/css/common.css">
+    <link rel="stylesheet" href="./home/assets/css/detail.css">
+    <link rel="stylesheet" href="./home/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!--<link rel="stylesheet" href="./home/mobileHome/css/common.css">-->
+    <!--<link rel="stylesheet" href="./home/mobileHome/css/detail.css">-->
+    <!--<link rel="stylesheet" href="./home/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">-->
+
+    <style>
+        .swal-modal {
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="bgc">
+
+    <div class="detail">
+        <!--导航部分-->
+        <div id="nav">
+            <div class="logo">
+                <a href="/">
+                    <img src="./home/assets/images/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="nav-icon">MENU</div>
+
+            <div class="nav_main">
+                <ul>
+                    <li class="index"><a href="/">关于恒进</a></li>
+                    <li class="product"><a href="/product">绿色产品</a></li>
+                    <li class="articles"><a href="/articles">媒体报道</a></li>
+                    <li class="job"><a href="/job">人才招聘</a></li>
+                    <li class="about"><a href="/contact">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="title">
+                <div class="meiti">媒体报道</div>
+                <div class="news_mb">NEWS</div>
+            </div>
+            <div class="news">NEWS</div>
+            <div class="content clearfix">
+                <div class="head fl_l">
+                    <div class="list_item">
+                        <h2>2020-07-07</h2>
+                        <div class="name">
+                            无论私有化能不能救新浪，总之一个时代结束了
+                        </div>
+                        <div class="shared">
+                            <div class="fenxiang">分享</div>
+                            <div class="shared_icon">
+                                <a href="http://service.weibo.com/share/share.php?title={{ article.title }} {{ url }}"
+                                   onclick="window.open(encodeURI(decodeURI(this.href)), '_blank', 'width=554, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;"
+                                   title="微博分享"><i class="fa fa-weibo"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article fl_l">
+                    <p>7月6日，新浪盘前公告称，收到了初步的非约束性「私有化」议案，New
+                        Wave控股（新浪CEO曹国伟持有的控股公司）将提议以每股41美元的价格私有化本公司，报价较新浪7月2日收盘价溢价约11.8％，公司已组成特别委员会以评估和考虑该提案。
+
+                        消息一出，资本市场反应强烈：受此消息影响，新浪涨10.55%，微博涨近18%。
+
+                        即便在中概股掀起回归潮的2020年，新浪的私有化举动依然极具象征意义。这是因为，在一众中概股乃至中国互联网发展史中，新浪地位特殊：作为第一家赴美上市的中国互联网公司，新浪开启了互联网公司赴美上市热潮，拉开一个时代的帷幕——VIE模式甚至被称为新浪模式。</p>
+                    <p class="one-p"><img src="https://image.holyzq.com/FtzZcX1dQMiT4xyEHaM7wENIW_4_"></p>
+                    <a href="/articles">
+
+                        <img src="./home/assets/images/restart.png" alt="" class="restart">
+                        <span>返回</span>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="more">
+    <div class="recommend">
+        <div class="re_news">
+
+            <div class="list_item">
+                <div class="title">
+                    <h2>2020-07-07</h2>
+                    <div>
+                        <a href="/article/{{ article.id }}">无论私有化能不能救新浪，总之一个时代结束</a>
+                    </div>
+                </div>
+                <p>7月6日，新浪盘前公告称，收到了初步的非约束性「私有化」议案，New Wave控股（新浪CEO曹国伟持有的</p>
+            </div>
+
+            <div class="list_item">
+                <div class="title">
+                    <h2>2020-07-07</h2>
+                    <div>
+                        <a href="/article/{{ article.id }}">无论私有化能不能救新浪，总之一个时代结束</a>
+                    </div>
+                </div>
+                <p>7月6日，新浪盘前公告称，收到了初步的非约束性「私有化」议案，New Wave控股（新浪CEO曹国伟持有的</p>
+            </div>
+
+            <div class="list_item">
+                <div class="title">
+                    <h2>2020-07-07</h2>
+                    <div>
+                        <a href="/article/{{ article.id }}">无论私有化能不能救新浪，总之一个时代结束</a>
+                    </div>
+                </div>
+                <p>7月6日，新浪盘前公告称，收到了初步的非约束性「私有化」议案，New Wave控股（新浪CEO曹国伟持有的</p>
+            </div>
+        </div>
+
+        <div class="footer detail">
+            <div class="info">©2019. 恒进纺织 版权所有</div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./home/assets/js/jquery.js"></script>
+<script src="./home/assets/js/sweetalert.min.js"></script>
+<script src="./home/assets/js/main/common.js"></script>
+<script src="./home/assets/js/main/detail.js"></script>
+
+<!--<script src="./home/assets/js/jquery.js"></script>-->
+<!--<script src="./home/assets/js/sweetalert.min.js"></script>-->
+<!--<script src="./home/mobileHome/js/main/common.js"></script>-->
+<!--<script src="./home/mobileHome/js/main/detail.js"></script>-->
+</body>
+</html>

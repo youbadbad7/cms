@@ -1,0 +1,230 @@
+#main {
+  margin-right: 10px;
+  width: 1246px;
+  margin-left: auto;
+  padding-top: 20px;
+}
+#main .description {
+  width: 1246px;
+  margin-top: 30px;
+}
+#main .description .title {
+  font-size: 54px;
+  line-height: 54px;
+  font-weight: 300;
+  color: #152935;
+}
+#main .description .shortLine {
+  width: 51px;
+  height: 2px;
+  background-color: #16519D;
+  margin: 35px 0;
+}
+#main .description .info {
+  width: 580px;
+}
+#main .description .info p {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+#main #main_about {
+  width: 1246px;
+  position: relative;
+}
+#main #main_about .content {
+  width: 1246px;
+  margin-left: auto;
+  z-index: 999;
+}
+#main #main_about .content .title {
+  display: flex;
+  width: 1246px;
+  padding: 25px 0;
+  overflow: hidden;
+  position: relative;
+  border-top: 2px solid #16519D;
+  border-bottom: 2px solid #16519D;
+}
+#main #main_about .content .title > div {
+  font-weight: bold;
+  margin: 0 20px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #152934;
+}
+#main #main_about .content .title > span {
+  font-size: 26px;
+  line-height: 26px;
+  align-self: flex-end;
+  position: absolute;
+  right: 276px;
+  bottom: -6px;
+  color: #16519D;
+}
+#main #main_about .content .desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 20px 0;
+  border-bottom: 2px solid #E5E5E5;
+}
+#main #main_about .content .desc .hi {
+  color: #004098;
+  font-size: 74px;
+  font-weight: bold;
+  line-height: 74px;
+  margin-bottom: 10px;
+  margin-top: 22px;
+}
+#main #main_about .content .desc article {
+  width: 740px;
+  padding-left: 60px;
+}
+#main #main_about .content .desc .swiper-container {
+  width: 378px;
+  height: 268px;
+  margin: 0;
+}
+#main #main_about .content .desc .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 378px;
+  height: 220px;
+}
+#main #main_about .content .desc .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  width: 14px !important;
+  height: 14px !important;
+}
+#main #main_about .content .info p {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+#main #main_about .content .info.en p {
+  margin-bottom: 12px;
+}
+#main #main_about .content .job {
+  margin: 28px 0 130px 0;
+  padding-left: 60px;
+}
+#main #main_about .content .job .job_title {
+  color: #004098;
+  font-size: 24px;
+  font-weight: bold;
+}
+#main #main_about .content .job .job_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 30px 0;
+}
+#main #main_about .content .job .job_list .job_name {
+  border: 1px solid;
+  padding: 2px 4px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+#main #main_about .content .job .job_list .job_name.active {
+  background: #004098;
+  color: #fff;
+}
+#main #main_about .content .job .job_desc {
+  margin-bottom: 30px;
+}
+#main #main_about .content .job .job_desc .special, #main #main_about .content .job .job_desc .treatment, #main #main_about .content .job .job_desc .requirement {
+  display: flex;
+  width: 740px;
+}
+#main #main_about .content .job .job_desc .special > div, #main #main_about .content .job .job_desc .treatment > div, #main #main_about .content .job .job_desc .requirement > div {
+  font-size: 16px;
+  line-height: 30px;
+}
+#main #main_about .content .job .job_desc .special .name, #main #main_about .content .job .job_desc .treatment .name, #main #main_about .content .job .job_desc .requirement .name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+#main #main_about .content .job .job_desc .special .part, #main #main_about .content .job .job_desc .treatment .part, #main #main_about .content .job .job_desc .requirement .part {
+  width: 660px;
+}
+#main #main_about .content .job .job_desc .contact {
+  font-size: 14px;
+}
+
+.footer {
+  background: #16519D;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 1246px;
+}
+.footer .info {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 200;
+}
+
+.search {
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.search .search-img {
+  float: left;
+}
+.search .search-img img {
+  margin-right: 16px;
+  position: relative;
+  top: 0;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block;
+}
+.search input {
+  position: absolute;
+  width: 160px;
+  right: 210px;
+  top: 84px;
+  padding: 4px;
+  border-radius: 6px;
+  border: 1px solid #909090;
+  background: #fff;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+.search input.active {
+  outline: none;
+  border: #87C6F9 1px solid;
+  box-shadow: 0 0 8px #67a6d9;
+  opacity: 1;
+  transform: scale(1);
+}
+.search a img {
+  position: absolute;
+  margin-left: 4px;
+}
+
+.swiper-button-next {
+  right: 0;
+  background-image: none;
+  width: 20px;
+  height: 30px;
+}
+
+.swiper-button-prev {
+  left: 0;
+  background-image: none;
+  width: 20px;
+  height: 30px;
+}
+
+.mb-swiper {
+  display: none;
+}
+
+.nav-icon {
+  display: none !important;
+}
+
+/*# sourceMappingURL=job.css.map */

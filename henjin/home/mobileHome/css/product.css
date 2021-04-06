@@ -1,0 +1,358 @@
+body #main #main_about .content {
+  padding-top: 48px;
+}
+body #main #main_about .content > .title {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 66px;
+  background: #ffffff;
+}
+body #main #main_about .content > .title .news {
+  position: absolute;
+  color: #4C70AC;
+  font-weight: bold;
+  top: 48px;
+  right: 70px;
+  font-size: 18px;
+}
+body #main #main_about .content > .title .meiti {
+  font-size: 25px;
+  font-weight: bold;
+  border-top: 1px solid #1D5093;
+  border-bottom: 1px solid #1D5093;
+  line-height: 32px;
+  padding: 16px;
+  color: #152935;
+}
+body #main #main_about .content .info {
+  padding-top: 66px;
+  background: #fff;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper {
+  margin: 10% 7%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled {
+  background: #F4F0E7;
+  box-sizing: border-box;
+  padding: 14px;
+  margin-bottom: 10%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .fabric .bg {
+  font-weight: bold;
+  font-size: 14px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .headline {
+  margin: 18px 0 12px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .headline .cn {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #152935;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .headline .en {
+  font-size: 20px;
+  line-height: 30px;
+  color: #899292;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .img_box .big_pic img {
+  width: 100%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .img_box .committed_mb {
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .img_box .committed_mb p {
+  padding-bottom: 1em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .img_box .new_pic {
+  width: 25%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .img_box .new_pic img {
+  width: 100%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .about .committed {
+  display: none;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .about .recycled > div {
+  font-size: 9px;
+  line-height: 18px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_recycled .desc .des_box .about .recycled > div span {
+  display: inline-block;
+  line-height: 18px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton {
+  background: #F4F0E7;
+  box-sizing: border-box;
+  padding: 14px;
+  margin-bottom: 10%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .fabric .bg {
+  font-weight: bold;
+  font-size: 14px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .headline_cotton {
+  margin: 18px 0 12px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .headline_cotton .cn {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #152935;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .headline_cotton .en {
+  font-size: 20px;
+  line-height: 30px;
+  color: #899292;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .big_pic img {
+  width: 100%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .committed_mb {
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .committed_mb p {
+  padding-bottom: 1em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .committed_mb p:last-child {
+  line-height: 22px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic .bci_title {
+  font-weight: bold;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic ul li .short, body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic ul li .more {
+  display: none;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic ul li .bci_mb dl {
+  display: flex;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic ul li .bci_mb dl dt {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic ul li .bci_mb dl dt:first-child {
+  width: 56px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic ul li .bci_mb dl dt:last-child {
+  flex: 1;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .img_box .new_pic ul li .bci_mb dl dt p {
+  font-size: 9px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .about .committed {
+  display: none;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .about .recycled > div {
+  font-size: 12px;
+  transform: scale(0.8);
+  margin-left: -34px;
+  line-height: 18px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_cotton .desc .des_cotton .about .recycled > div span {
+  display: inline-block;
+  line-height: 18px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester {
+  background: #F4F0E7;
+  box-sizing: border-box;
+  padding: 14px;
+  margin-bottom: 10%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .fabric .bg {
+  font-weight: bold;
+  font-size: 14px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .headline {
+  margin: 18px 0 12px;
+  display: flex;
+  flex-direction: column;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .headline .cn {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  order: -1;
+  color: #152935;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .headline .en {
+  font-size: 20px;
+  line-height: 30px;
+  color: #899292;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .img_box .big_pic img {
+  width: 100%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .img_box .committed_mb {
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .img_box .committed_mb p {
+  padding-bottom: 1em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .img_box .committed_mb p:last-child {
+  line-height: 22px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .about .committed {
+  display: none;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .about .recycled {
+  margin-top: 14px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .about .recycled .bottle {
+  width: 25%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .about .recycled .img img {
+  width: 50%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_polyester .desc_polyester .des_box .about .recycled .concluded p {
+  font-size: 12px;
+  transform: scale(0.8);
+  margin-left: -34px;
+  line-height: 18px;
+  text-align: left;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco {
+  background: #F4F0E7;
+  box-sizing: border-box;
+  padding: 14px;
+  margin-bottom: 10%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .fabric .bg {
+  font-weight: bold;
+  font-size: 14px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .headline {
+  margin: 18px 0 12px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .headline .cn {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #152935;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .headline .en {
+  font-size: 20px;
+  line-height: 30px;
+  color: #899292;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .des_box .img_box .big_pic img {
+  width: 100%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .des_box .img_box .committed_mb {
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .des_box .img_box .committed_mb p {
+  padding-bottom: 1em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .des_box .img_box .committed_mb p:last-child {
+  line-height: 22px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .des_box .img_box .new_pic {
+  width: 25%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .des_box .about .committed {
+  display: none;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_eco .desc .des_box .about .recycled img {
+  width: 25%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp {
+  background: #F4F0E7;
+  box-sizing: border-box;
+  padding: 14px;
+  margin-bottom: 10%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .fabric .bg {
+  font-weight: bold;
+  font-size: 14px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .headline {
+  margin: 18px 0 12px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .headline .cn {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #152935;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .headline .en {
+  font-size: 20px;
+  line-height: 30px;
+  color: #899292;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .img_box .big_pic img {
+  width: 64%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .img_box .committed_mb {
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .img_box .committed_mb p {
+  padding-bottom: 1em;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .img_box .committed_mb p:last-child {
+  line-height: 22px;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .img_box .new_pic {
+  width: 25%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .about .committed {
+  display: none;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .about .recycled img {
+  width: 25%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .about .recycled .leave_right {
+  position: relative;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .about .recycled .tip_lists {
+  position: absolute;
+  top: -98px;
+  left: 22%;
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .about .recycled .tip_lists p {
+  font-size: 12px;
+  transform: scale(0.8);
+}
+body #main #main_about .content .info .swiper-container .swiper-wrapper .slide_hamp .desc_hamp .des_box .about .recycled .hemp p {
+  font-size: 12px;
+}
+body #mb_nav ul {
+  display: flex;
+  border-top: 1px solid;
+}
+body #mb_nav ul li {
+  flex: 1;
+  display: flex;
+  padding: 10px 0;
+}
+body #mb_nav ul li a {
+  flex: 1;
+  text-align: center;
+}
+body #mb_nav ul li a.active {
+  font-weight: bold;
+}
+body .footer {
+  width: auto;
+  background: #16519D;
+  text-align: center;
+}
+body .footer .info {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 200;
+}
+
+/*# sourceMappingURL=product.css.map */

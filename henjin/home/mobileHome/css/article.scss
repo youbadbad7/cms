@@ -1,0 +1,100 @@
+
+#main {
+  padding-top: 48px;
+  > .title {
+    position: relative;
+    overflow: hidden;
+    .news {
+      position: absolute;
+      color: #4C70AC;
+      font-weight: bold;
+      top: 49px;
+      right: 70px;
+      font-size: 18px;
+    }
+    .meiti {
+      font-size: 25px;
+      font-weight: bold;
+      border-top: 1px solid #1D5093;
+      border-bottom: 1px solid #1D5093;
+      line-height: 32px;
+      padding: 16px;
+    }
+    .search {
+      position: absolute;
+      top: 18px;
+      right: 46px;
+      form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+          border: none;
+          border-radius: 10px;
+          outline: none;
+          padding: 0 10px;
+          width: 50%;
+        }
+      }
+      img{
+        width: 20px;
+        margin-left: 6px;
+      }
+    }
+  }
+  .content{
+    .top{
+      box-sizing: border-box;
+      padding:0 10px;
+      .list_item{
+        margin: 20px 0;
+        padding-left: 10px;
+        border-left: 1px solid #607A9E;
+        &:last-child{
+          margin-bottom: 0;
+        }
+        .title{
+          display: flex;
+          h2{
+            flex-grow: 0;
+            flex-shrink: 0;
+            color: #D74E2B;
+            font-size: 18px;
+            font-weight: bold;
+            width: 23%;
+            font-family: "PingFang SC", 微软雅黑, "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+          }
+          >div{
+            text-align: left;
+            flex-grow: 0;
+            flex-shrink: 0;
+            padding-left: 4px;
+            width: 64%;
+            a{
+              font-size: 18px;
+              font-weight: bold;
+              text-align: left;
+              color: #152935;
+            }
+          }
+        }
+        .body{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+.footer{
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .more{
+    padding: 8px 20px;
+    background: #16529B;
+    color: #fff;
+    font-size: 12px;
+  }
+}

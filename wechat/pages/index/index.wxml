@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="page-body">
+    <view>
+      <navigator url="../detail/detail">跳转测试</navigator>
+    </view>
+    <view>推荐课程</view>
+    <!-- 轮播图 -->
+    <view class="page-section page-section-spacing swiper">
+      <swiper class="swiper_1" indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{lists}}">
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+              <image class="image_1" src='{{item.url}}'></image>
+              <text class="text">{{item.updated_at}}发布</text>
+              <text class="text">{{item.name}}</text>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <!-- 横向滚动区域 -->
+    <view>课程发布日历</view>
+    <view class="page-section-spacing">
+        <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+          <view id="demo1" class="scroll-view-item_H demo-text-1"></view>
+          <view id="demo2"  class="scroll-view-item_H demo-text-2"></view>
+          <view id="demo3" class="scroll-view-item_H demo-text-3"></view>
+        </scroll-view>
+      </view>
+    
+
+    
+  </view>
+</view>

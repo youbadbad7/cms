@@ -1,0 +1,14 @@
+/**index.wxss**/
+.swiper_1 {
+  height: 600rpx;
+  width: 700rpx;
+}
+
+.image_1 {
+  height: 400rpx;
+  width: 700rpx;
+}
+
+.text {
+  display: block;
+}

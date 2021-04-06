@@ -1,0 +1,242 @@
+#main {
+    width: 1246px;
+    margin-left: auto;
+    padding-top: 20px;
+
+    >.title {
+        border-bottom: 1px solid #16519D;
+        border-top: 1px solid #16519D;
+        position: relative;
+
+        .search {
+            margin-right: 30px;
+            margin-top: 20px;
+            position: absolute;
+            right: 110px;
+            top: 18px;
+
+            .search-img {
+                float: left;
+
+                img {
+                    margin-right: 16px;
+                    position: relative;
+                    top: 0;
+                    width: 40px;
+                    z-index: 2;
+                    cursor: pointer;
+                    display: inline-block;
+                }
+            }
+
+            input {
+                position: relative;
+                top: -12px;
+                width: 160px;
+                font-size: 20px;
+                border: none;
+
+                &.active {
+                    outline: none;
+                }
+            }
+
+            a img {
+                position: absolute;
+                margin-left: 4px;
+            }
+        }
+
+        .meiti {
+            width: 240px;
+            height: 68px;
+            color: #152935;
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 68px;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .news {
+        width: 72px;
+        height: 44px;
+        color: #3d70b2;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 68px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 73px;
+        left: 802px;
+    }
+
+    .content {
+        position: relative;
+        background-color: #fff;
+        padding: 30px 80px;
+
+        .news_lists {
+            display: flex;
+            width: 1200px;
+            flex-wrap: wrap;
+
+            .list_item {
+                padding: 24px 0 0 34px;
+                margin: 20px 30px;
+                width: 262px;
+                height: 350px;
+                overflow: hidden;
+                position: relative;
+                .body {
+                    margin-top: 24px;
+                }
+
+                &::before, &::after {
+                    content: '';
+                    flex: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 1px;
+                    height: 100%;
+                    background: #a7a7a8;
+                }
+
+                &::after {
+                    opacity: 0;
+                    background: #16519D;
+                }
+
+                &:hover::after {
+                    opacity: 1;
+                    -webkit-animation: hover___3nRgd 500ms cubic-bezier(.645, .045, .355, 1) forwards;
+                    animation: hover___3nRgd 500ms cubic-bezier(.645, .045, .355, 1) forwards;
+                }
+
+                &:hover {
+                    transform: translate3d(0, -4px, 0);
+                    transition: all 1s ease;
+                }
+
+                h2 {
+                    width: 244px;
+                    height: 46px;
+                    color: #e04920;
+                    font-family: "Gill Sans";
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    margin-bottom: 14px;
+                }
+
+                div {
+                    a {
+                        width: 244px;
+                        height: 100px;
+                        color: #152935;
+                        font-size: 32px;
+                        font-weight: 600;
+                        line-height: 48px;
+                    }
+                }
+
+                p {
+                    width: 244px;
+                    color: #5a6872;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    margin-top: 18px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 6;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+    }
+}
+
+
+.footer {
+    width: 130px;
+    height: 48px;
+    background-color: #16519d;
+    position: absolute;
+    right: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        width: 64px;
+        height: 28px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 28px;
+
+    }
+}
+
+
+//
+//.clientListItem___2uyzG::before, .clientListItem___2uyzG::after {
+//  content: '';
+//  flex: none;
+//  position: absolute;
+//  bottom: 0;
+//  left: 0;
+//  width: 100%;
+//  height: 1px;
+//  background: #a7a7a8;
+//}
+
+//.clientListItem___2uyzG::after {
+//  opacity: 0;
+//  background: #ea533c;
+//}
+//
+//.clientListItem___2uyzG:hover::after {
+//  opacity: 1;
+//  -webkit-animation: hover___3nRgd 500ms cubic-bezier(.645, .045, .355, 1) forwards;
+//  animation: hover___3nRgd 500ms cubic-bezier(.645, .045, .355, 1) forwards;
+//}
+
+
+@-webkit-keyframes hover___3nRgd {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%)
+    }
+    50.01% {
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+}
+
+@keyframes hover___3nRgd {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%)
+    }
+    50.01% {
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+}

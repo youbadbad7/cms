@@ -1,0 +1,194 @@
+#main {
+  width: 1246px;
+  margin-left: auto;
+  padding-top: 20px;
+}
+#main > .title {
+  border-bottom: 1px solid #16519D;
+  border-top: 1px solid #16519D;
+  position: relative;
+}
+#main > .title .search {
+  margin-right: 30px;
+  margin-top: 20px;
+  position: absolute;
+  right: 110px;
+  top: 18px;
+}
+#main > .title .search .search-img {
+  float: left;
+}
+#main > .title .search .search-img img {
+  margin-right: 16px;
+  position: relative;
+  top: 0;
+  width: 40px;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block;
+}
+#main > .title .search input {
+  position: relative;
+  top: -12px;
+  width: 160px;
+  font-size: 20px;
+  border: none;
+}
+#main > .title .search input.active {
+  outline: none;
+}
+#main > .title .search a img {
+  position: absolute;
+  margin-left: 4px;
+}
+#main > .title .meiti {
+  width: 240px;
+  height: 68px;
+  color: #152935;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 68px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+#main .news {
+  width: 72px;
+  height: 44px;
+  color: #3d70b2;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 68px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 73px;
+  left: 802px;
+}
+#main .content {
+  position: relative;
+  background-color: #fff;
+  padding: 30px 80px;
+}
+#main .content .news_lists {
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
+}
+#main .content .news_lists .list_item {
+  padding: 24px 0 0 34px;
+  margin: 20px 30px;
+  width: 262px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+#main .content .news_lists .list_item .body {
+  margin-top: 24px;
+}
+#main .content .news_lists .list_item::before, #main .content .news_lists .list_item::after {
+  content: "";
+  flex: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: #a7a7a8;
+}
+#main .content .news_lists .list_item::after {
+  opacity: 0;
+  background: #16519D;
+}
+#main .content .news_lists .list_item:hover::after {
+  opacity: 1;
+  -webkit-animation: hover___3nRgd 500ms cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation: hover___3nRgd 500ms cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+#main .content .news_lists .list_item:hover {
+  transform: translate3d(0, -4px, 0);
+  transition: all 1s ease;
+}
+#main .content .news_lists .list_item h2 {
+  width: 244px;
+  height: 46px;
+  color: #e04920;
+  font-family: "Gill Sans";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 14px;
+}
+#main .content .news_lists .list_item div a {
+  width: 244px;
+  height: 100px;
+  color: #152935;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+#main .content .news_lists .list_item p {
+  width: 244px;
+  color: #5a6872;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.footer {
+  width: 130px;
+  height: 48px;
+  background-color: #16519d;
+  position: absolute;
+  right: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer span {
+  width: 64px;
+  height: 28px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+@-webkit-keyframes hover___3nRgd {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  50.01% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+@keyframes hover___3nRgd {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  50.01% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+/*# sourceMappingURL=news_media.css.map */

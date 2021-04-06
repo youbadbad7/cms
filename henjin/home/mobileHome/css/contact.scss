@@ -1,0 +1,81 @@
+#main{
+  .news{
+    display: none;
+  }
+  > .title {
+    position: relative;
+    padding-top:48px;
+    overflow: hidden;
+    .news_mb {
+      position: absolute;
+      color: #4C70AC;
+      font-weight: bold;
+      top: 96px;
+      right: 70px;
+      font-size: 18px;
+    }
+    .meiti {
+      font-size: 25px;
+      font-weight: bold;
+      border-top: 1px solid #1D5093;
+      border-bottom: 1px solid #1D5093;
+      line-height: 32px;
+      padding: 16px 18px;
+      color: #192C37;
+    }
+  }
+  .content{
+    box-sizing: border-box;
+    padding: 10px 18px;
+    .desc{
+      .cn{
+        margin: 14px 0;
+        font-size: 56px;
+        font-weight: bold;
+        line-height: 64px;
+        width: 90%;
+        color: #004098;
+      }
+      .en{
+        margin-bottom: 28px;
+      }
+    }
+    .info{
+      display: flex;
+      flex-direction: column;
+      .findmore{
+        margin-bottom: 30px;
+        .company{
+          margin-bottom: 20px;
+          .name{
+            font-weight: bold;
+          }
+          p{
+            margin: 2px 0;
+            text-align: left;
+            line-height: 28px;
+          }
+        }
+        ul{
+          li{
+            line-height: 28px;
+          }
+        }
+      }
+      .map{
+      }
+    }
+  }
+  .footer{
+    width: 100%;
+    background: #16519D;
+    text-align: center;
+    .info {
+      font-size: 10px;
+      color: white;
+      text-align: center;
+      line-height: 40px;
+      font-weight: 200;
+    }
+  }
+}

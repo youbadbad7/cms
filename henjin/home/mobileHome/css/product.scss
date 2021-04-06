@@ -1,0 +1,451 @@
+body {
+  #main {
+    #main_about {
+      .content {
+        padding-top: 48px;
+        > .title {
+          position: fixed;
+          overflow: hidden;
+          width: 100%;
+          height: 66px;
+          background: #ffffff;
+          .news {
+            position: absolute;
+            color: #4C70AC;
+            font-weight: bold;
+            top: 48px;
+            right: 70px;
+            font-size: 18px;
+          }
+          .meiti {
+            font-size: 25px;
+            font-weight: bold;
+            border-top: 1px solid #1D5093;
+            border-bottom: 1px solid #1D5093;
+            line-height: 32px;
+            padding: 16px;
+            color: #152935;
+          }
+        }
+        .info {
+          padding-top: 66px;
+          background: #fff;
+          .swiper-container {
+            .swiper-wrapper {
+              margin: 10% 7%;
+              .slide_recycled {
+                background:#F4F0E7;
+                box-sizing: border-box;
+                padding: 14px;
+                margin-bottom: 10%;
+                .fabric {
+                  .bg {
+                    font-weight: bold;
+                    font-size: 14px;
+                  }
+                }
+                .desc {
+                  .headline {
+                    margin: 18px 0 12px;
+                    .cn {
+                      font-size: 20px;
+                      font-weight: bold;
+                      letter-spacing: 1px;
+                      line-height: 30px;
+                      color: #152935;
+                    }
+                    .en {
+                      font-size: 20px;
+                      line-height: 30px;
+                      color: #899292;
+                    }
+                  }
+                  .des_box {
+                    .img_box {
+                      .big_pic {
+                        img {
+                          width: 100%;
+                        }
+                      }
+                      .committed_mb {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.2em;
+                        p {
+                          padding-bottom: 1em;
+                        }
+                      }
+                      .new_pic {
+                        width: 25%;
+                        img {
+                          width: 100%;
+                        }
+                      }
+                    }
+                    .about {
+                      .committed {
+                        display: none;
+                      }
+                      .recycled {
+                        > div {
+                          font-size: 9px;
+                          line-height: 18px;
+                          span {
+                            display: inline-block;
+                            line-height: 18px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .slide_cotton {
+                background: #F4F0E7;
+                box-sizing: border-box;
+                padding: 14px;
+                margin-bottom: 10%;
+                .fabric {
+                  .bg {
+                    font-weight: bold;
+                    font-size: 14px;
+                  }
+                }
+                .desc {
+                  .headline_cotton {
+                    margin: 18px 0 12px;
+                    .cn {
+                      font-size: 20px;
+                      font-weight: bold;
+                      letter-spacing: 1px;
+                      line-height: 30px;
+                      color: #152935;
+                    }
+                    .en {
+                      font-size: 20px;
+                      line-height: 30px;
+                      color: #899292;
+                    }
+                  }
+                  .des_cotton {
+                    .img_box {
+                      .big_pic {
+                        img {
+                          width: 100%;
+                        }
+                      }
+                      .committed_mb {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.2em;
+                        p {
+                          padding-bottom: 1em;
+                          &:last-child{
+                            line-height: 22px;
+                          }
+                        }
+                      }
+                      .new_pic {
+                        .bci_title{
+                          font-weight: bold;
+                        }
+                        ul {
+                          li {
+                            .short,.more{
+                              display: none;
+                            }
+                            .bci_mb{
+                              dl{
+                                display: flex;
+                                dt{
+                                  flex-grow: 0;
+                                  flex-shrink: 0;
+                                  &:first-child{
+                                    width: 56px;
+                                  }
+                                  &:last-child{
+                                    flex:1;
+                                  }
+                                  p{
+                                    font-size: 9px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    .about {
+                      .committed {
+                        display: none;
+                      }
+                      .recycled {
+                        > div {
+                          font-size: 12px;
+                          transform: scale(0.8);
+                          margin-left: -34px;
+                          line-height: 18px;
+                          span {
+                            display: inline-block;
+                            line-height: 18px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .slide_polyester {
+                background: #F4F0E7;
+                box-sizing: border-box;
+                padding: 14px;
+                margin-bottom: 10%;
+                .fabric {
+                  .bg {
+                    font-weight: bold;
+                    font-size: 14px;
+                  }
+                }
+                .desc_polyester {
+                  .headline {
+                    margin: 18px 0 12px;
+                    display: flex;
+                    flex-direction: column;
+                    .cn {
+                      font-size: 20px;
+                      font-weight: bold;
+                      letter-spacing: 1px;
+                      line-height: 30px;
+                      order:-1;
+                      color: #152935;
+                    }
+                    .en {
+                      font-size: 20px;
+                      line-height: 30px;
+                      color: #899292;
+                    }
+                  }
+                  .des_box {
+                    .img_box {
+                      .big_pic {
+                        img {
+                          width: 100%;
+                        }
+                      }
+                      .committed_mb {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.2em;
+                        p {
+                          padding-bottom: 1em;
+                          &:last-child{
+                            line-height: 22px;
+                          }
+                        }
+                      }
+                      .new_pic {
+                      }
+                    }
+                    .about {
+                      .committed {
+                        display: none;
+                      }
+                      .recycled {
+                        margin-top:14px;
+                        .bottle{
+                          width: 25%;
+                        }
+                        .img{
+                          img{
+                            width: 50%;
+                          }
+                        }
+                        .concluded {
+                          p{
+                            font-size: 12px;
+                            transform: scale(0.8);
+                            margin-left: -34px;
+                            line-height: 18px;
+                            text-align: left;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .slide_eco {
+                background: #F4F0E7;
+                box-sizing: border-box;
+                padding: 14px;
+                margin-bottom: 10%;
+                .fabric {
+                  .bg {
+                    font-weight: bold;
+                    font-size: 14px;
+                  }
+                }
+                .desc {
+                  .headline {
+                    margin: 18px 0 12px;
+                    .cn {
+                      font-size: 19px;
+                      font-weight: bold;
+                      letter-spacing: 1px;
+                      line-height: 30px;
+                      color: #152935;
+                    }
+                    .en {
+                      font-size: 20px;
+                      line-height: 30px;
+                      color: #899292;
+                    }
+                  }
+                  .des_box {
+                    .img_box {
+                      .big_pic {
+                        img {
+                          width: 100%;
+                        }
+                      }
+                      .committed_mb {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.2em;
+                        p {
+                          padding-bottom: 1em;
+                          &:last-child{
+                            line-height: 22px;
+                          }
+                        }
+                      }
+                      .new_pic {
+                        width: 25%;
+                      }
+                    }
+                    .about {
+                      .committed {
+                        display: none;
+                      }
+                      .recycled {
+                        img{
+                          width: 25%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .slide_hamp {
+                background: #F4F0E7;
+                box-sizing: border-box;
+                padding: 14px;
+                margin-bottom: 10%;
+                .fabric {
+                  .bg {
+                    font-weight: bold;
+                    font-size: 14px;
+                  }
+                }
+                .desc_hamp {
+                  .headline {
+                    margin: 18px 0 12px;
+                    .cn {
+                      font-size: 20px;
+                      font-weight: bold;
+                      letter-spacing: 1px;
+                      line-height: 30px;
+                      color: #152935;
+                    }
+                    .en {
+                      font-size: 20px;
+                      line-height: 30px;
+                      color: #899292;
+                    }
+                  }
+                  .des_box {
+                    .img_box {
+                      .big_pic {
+                        img {
+                          width: 64%;
+                        }
+                      }
+                      .committed_mb {
+                        padding-top: 0.5em;
+                        padding-bottom: 0.2em;
+                        p {
+                          padding-bottom: 1em;
+                          &:last-child{
+                            line-height: 22px;
+                          }
+                        }
+                      }
+                      .new_pic {
+                        width: 25%;
+                      }
+                    }
+                    .about {
+                      .committed {
+                        display: none;
+                      }
+                      .recycled {
+                        img{
+                          width: 25%;
+                        }
+                        .leave_right{
+                          position: relative;
+                        }
+                        .tip_lists{
+                          position: absolute;
+                          top: -98px;
+                          left: 22%;
+                          p{
+                            font-size: 12px;
+                            transform: scale(0.8);
+                          }
+                        }
+                        .hemp{
+                          p{
+                            font-size: 12px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #mb_nav{
+    ul{
+      display: flex;
+      border-top: 1px solid;
+      li{
+        flex: 1;
+        display: flex;
+        padding: 10px 0;
+        a{
+          flex: 1;
+          text-align: center;
+        }
+        a.active{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .footer {
+    width: auto;
+    background: #16519D;
+    text-align: center;
+    .info {
+      font-size: 10px;
+      color: white;
+      text-align: center;
+      line-height: 40px;
+      font-weight: 200;
+    }
+  }
+}
